@@ -1,88 +1,104 @@
-* {
-    padding:0;
-    margin:0
+*
+{
+	margin:0;
+	padding:0;
 }
 
-body {
-    color:#333;
-    font:14px Sans-Serif;
-    padding:50px;
-    background:#eee
+body
+{
+	background:#eee;
+	color:#333;
+	font:14px Sans-Serif;
+	padding:50px;
 }
 
-h1 {
-    text-align:center;
-    padding:20px 0 12px;
-    margin:0
+h1
+{
+	margin:0;
+	padding:20px 0 12px;
+	text-align:center;
 }
 
-h2 {
-    font-size:16px;
-    text-align:center;
-    padding:0 0 12px
+h2
+{
+	font-size:16px;
+	padding:0 0 12px;
+	text-align:center;
 }
 
-#container {
-    box-shadow:0 5px 10px -5px rgba(0,0,0,0.5);
-    position:relative;
-    background:#fff;
-    height: 100%;
-    width: 100%;
+#container
+{
+	background:#fff;
+	box-shadow:0 5px 10px -5px rgba(0,0,0,0.5);
+	height:100%;
+	position:relative;
+	width:100%;
 }
 
-.button a {
-    text-decoration:none;
-    color:orange
+.button a
+{
+	color:#FF8000;
+	text-decoration:none;
 }
 
-.button a:hover {
-    text-decoration:underline;
-    color:#87ceeb
+.button a:hover
+{
+	color:#87ceeb;
+	text-decoration:underline;
 }
 
-#search {
-    background:#EAEAEA;
-    border-radius:3px;
-    display:inline-block;
-    padding:7px
+#search
+{
+	background:#EAEAEA;
+	border-radius:3px;
+	display:inline-block;
+	padding:7px;
 }
 
-#search input {
-    float:left
+#search input
+{
+	float:left;
 }
 
-#search input[type="search"],#search input[type="submit"] {
-    border-radius:3px;
-    font-size:12px
+#search input[type=search],#search input[type=submit]
+{
+	border-radius:3px;
+	font-size:12px;
 }
 
-#search input[type="search"] {
-    background:#fff;
-    color:#394A47;
-    min-width:184px;
-    padding:6px 8px
+#search input[type=search]
+{
+	background:#fff;
+	color:#394A47;
+	min-width:184px;
+	padding:6px 8px;
 }
 
-#search input[type="submit"] {
-    background:#394A47;
-    color:#fff;
-    font-weight:700;
-    margin-left:11px;
-    padding:1px 8px
+#search input[type=submit]
+{
+	background:#394A47;
+	color:#fff;
+	font-weight:700;
+	margin-left:11px;
+	padding:1px 8px;
 }
 
-#search input[type="submit"]:hover {
-    background:#828988;
+#search input[type=submit]:hover
+{
+	background:#828988;
 }
 
-#search input[type="search"]::-webkit-input-placeholder {
-    color:#42454e
+#search input[type=search]::-webkit-input-placeholder
+{
+	color:#42454e;
 }
 
-#search input[type="search"]:-moz-placeholder {
-    color:#42454e
+#search input[type=search]:-moz-placeholder
+{
+	color:#42454e;
 }
 
-#search input[type="search"]:-ms-input-placeholder {
-    color:#42454e
+#search input[type=search]:-ms-input-placeholder
+{
+	color:#42454e;
 }
