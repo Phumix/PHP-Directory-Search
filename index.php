@@ -14,7 +14,7 @@
 
         <div style="text-align: center">
             <br>
-<?php
+	<?php
 	$i = 0;
 	
 	if ($handle = opendir($dir)) {
@@ -56,7 +56,8 @@
             <form action='' id="search" name="search">
                 <input class="button" type="submit" value="Search">
                 <input name='s'>
-            </form><?php
+            </form>
+            <?php
             }
             ?>
         </div>
