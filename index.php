@@ -3,24 +3,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
-
     <title>Directory Database</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
     <div id="container">
         <h1>Directory Database</h1>
-
         <div style="text-align: center">
             <br>
-	<?php
+<?php
 	$i = 0;
 	
 	if ($handle = opendir($dir)) {
 		while (($file = readdir($handle)) !== false){
 			
-			if (!in_array($file, array('.', '..')) && !is_dir($dir.$file))                             $i++;
+			if (!in_array($file, array('.', '..')) && !is_dir($dir.$file))$i++;
 		}
 
 	}
@@ -57,9 +54,8 @@
                 <input class="button" type="submit" value="Search">
                 <input name='s'>
             </form>
-            <?php
-            }
-            ?>
+			<?php
+ } ?>
         </div>
     </div>
 </body>
