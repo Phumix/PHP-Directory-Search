@@ -7,4 +7,4 @@
 // File extension of the files you wish to display as results.
     $ext = '.txt';
 	
-?>
+
